@@ -20,16 +20,9 @@ body {
 /* || typography */
 
 h2, h3 {
-  font-family: 'Cinzel Decorative', cursive;
+  font-family: 'Concert One';
   color: #2a2a2a;
-  font-weight: normal;
 }
-
-h1 {
-  font: Patua One;
-  font-weight: bold;
-}
-
 
 p, input, li {
   font-family: 'Roboto Condensed', sans-serif;
@@ -37,6 +30,7 @@ p, input, li {
 }
 
 h1 {
+  font:'Patua One';
   font-size: 4rem;
   text-align: center;
   text-shadow: 2px 2px 10px black;
@@ -51,6 +45,7 @@ h2 {
 
 h3 {
   font-size: 2.2rem;
+  font-weight: 600;
 }
 
 p, li {
