@@ -24,10 +24,6 @@ h1, h2, h3 {
   color: #2a2a2a;
 }
 
-.top-part{
-  color: green
-}
-
 
 p, input, li {
   font-family: 'Roboto Condensed', sans-serif;
@@ -143,4 +139,8 @@ nav a, nav span {
 
 .footer {
   margin-top: 10px;
+}
+
+.top-part{
+  background-color: green
 }
