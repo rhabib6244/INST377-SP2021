@@ -20,7 +20,7 @@ body {
 /* || typography */
 
 h2, h3 {
-  font-family: 'Comfortaa';
+  font: 'Comfortaa';
   color: #2a2a2a;
 }
 
