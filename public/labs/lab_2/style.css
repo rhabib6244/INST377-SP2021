@@ -20,7 +20,6 @@ body {
 /* || typography */
 
 h2, h3 {
-  font: 'Comfortaa';
   color: #2a2a2a;
 }
 
@@ -38,12 +37,14 @@ h1 {
 }
 
 h2 {
+  font:'Patua One';
   font-size: 5rem;
   text-align: center;
   font-weight: 600;
 }
 
 h3 {
+  font:'Patua One';
   font-size: 2.2rem;
   font-weight: 400;
 }
