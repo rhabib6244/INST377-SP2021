@@ -15,9 +15,8 @@
 
 .carousel ul{ 
     width: 9999px;
-    transform: translateX();
 }
-.carousel li{
+.images img{
      height: 130px;
      width: 130px;
      display: inline-block
