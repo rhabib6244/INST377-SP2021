@@ -12,11 +12,6 @@
 
  h1,h2,h3 {line-height:1,2}
 
-.img{
-    display: block;
-}
-
-
  .img ul{
      width: 9999px;
      transform: translateX(200px);
