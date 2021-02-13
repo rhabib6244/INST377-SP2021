@@ -13,7 +13,7 @@ function arrayMethod() {
     listItem.innerText = element;
     listContainer.append(listItem);
     console.log(element);
-    //element.addEventListener("click",(event) => {transform: translateX()
+    element.addEventListener("click",(event) => {transform: translateX()
   });
 }
 
