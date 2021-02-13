@@ -1,7 +1,7 @@
 /* Put your javascript in here */
 
 function arrayMethod() {
-  const array1 = document.querySelector('#images');
+  const slideArray = [document.querySelector('#images')];
 
   const listContainer = document.createElement('ul');
   const target = document.querySelector('.ribbon');
@@ -18,3 +18,8 @@ function loadPage(){
     document.addEventListener('click', (event) => {alert('Hi!')
     }
 }
+
+
+//for (let i = 0; i < document.querySelectorAll('.slider div').length; i++) {
+   // slideArray.push(document.querySelectorAll('.slider div')[i].dataset.background);
+//}
