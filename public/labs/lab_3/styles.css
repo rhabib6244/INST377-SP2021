@@ -12,10 +12,10 @@
 
  h1,h2,h3 {line-height:1,2}
 
- .photos ul{
+.main ul{
     width: 9999px;
  }
- .photos li{
+.main li{
      height: 130px;
      width: 130px;
  }
