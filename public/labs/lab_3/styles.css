@@ -14,7 +14,7 @@
  
 .carousel-wrapper {
     overflow: hidden;
-    width: 90%;
+    width: 100%;
 }
 .carousel-wrapper * {
     box-sizing: border-box;
