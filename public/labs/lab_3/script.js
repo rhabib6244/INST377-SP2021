@@ -13,3 +13,9 @@ function arrayMethod() {
     listContainer.append(listItem);
   });
 }
+
+function loadPage(){
+    document.addEventListener('click'), (event) =>{
+        arrayMethod()
+    })
+}
