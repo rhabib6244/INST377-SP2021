@@ -15,11 +15,7 @@ function arrayMethod() {
 }
 
 function loadPage(){
-    document.addEventListener('click', (event) => {alert('Hi!')
+    document.addEventListener('', (event) => {transform: translateX()
+
     }
 }
-
-
-//for (let i = 0; i < document.querySelectorAll('.slider div').length; i++) {
-   // slideArray.push(document.querySelectorAll('.slider div')[i].dataset.background);
-//}
