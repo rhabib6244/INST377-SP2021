@@ -1,7 +1,7 @@
 /* Put your javascript in here */
 
 function arrayMethod() {
-  const slides = document.querySelectorAll(".li");
+  const slides = document.querySelectorAll("li");
   const slideArray = Array.from(slides);
 
   const listContainer = document.createElement("ul");
@@ -16,9 +16,3 @@ function arrayMethod() {
     element.addEventListener("click",(event) => {transform: translateX()
   });
 }
-
-/*function loadPage() {
-  document.addEventListener("click", (event) => {
-    arrayMethod();
-  });
-*/
