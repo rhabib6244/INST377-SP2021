@@ -12,9 +12,8 @@
 
  h1,h2,h3 {line-height:1,2}
 
-
 .carousel ul{ 
-    width: 9999px;
+    width: 330px;
     transform: translateX();
 }
 .carousel li{
