@@ -15,7 +15,7 @@ function arrayMethod() {
 }
 
 function loadPage(){
-    document.addEventListener('', (event) => {transform: translateX()
+    document.addEventListener('click', (event) => {transform: translateX()
 
     }
 }
