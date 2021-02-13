@@ -13,7 +13,8 @@
  h1,h2,h3 {line-height:1,2}
 
 .carousel ul{ 
-    width: 330px;
+    width: 390px;
+    height: 100 px;
     transform: translateX();
 }
 .carousel li{
