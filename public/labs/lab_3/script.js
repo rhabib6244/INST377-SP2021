@@ -1,7 +1,8 @@
 /* Put your javascript in here */
 
 function arrayMethod() {
-  const slideArray = [document.querySelector(".li")];
+  const slides = document.querySelectorAll(".li");
+  const slideArray = Array.from(slides);
 
   const listContainer = document.createElement("ul");
   const target = document.querySelector(".carousel");
@@ -11,10 +12,11 @@ function arrayMethod() {
     const listItem = document.createElement("li");
     listItem.innerText = element;
     listContainer.append(listItem);
-    element.addEventListener("click",(event) => {transform: translateX()
-    }
+    console.log(element);
+    //element.addEventListener("click",(event) => {transform: translateX()
   });
 }
+
 /*function loadPage() {
   document.addEventListener("click", (event) => {
     arrayMethod();
