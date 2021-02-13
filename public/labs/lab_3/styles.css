@@ -14,7 +14,8 @@
 
 
 .imgs ul{ 
-    width: 9999px
+    width: 9999px;
+    transform: translateX();
 }
 .imgs li{
      height: 130px;
