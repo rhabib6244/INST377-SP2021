@@ -16,7 +16,8 @@
  .img ul{
      width: 9999px;
  }
- .img il{
+ .img li{
      height: 130px;
      width: 130px;
+     display: inline-block;
  }
