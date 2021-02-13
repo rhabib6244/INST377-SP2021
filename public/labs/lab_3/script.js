@@ -15,7 +15,6 @@ function arrayMethod() {
 }
 
 function loadPage(){
-    document.addEventListener('click'), (event) =>{
-        arrayMethod()
+    document.addEventListener('click'), (event) => alert('Hi!')
     })
 }
