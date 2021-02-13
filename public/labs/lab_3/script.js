@@ -11,10 +11,12 @@ function arrayMethod() {
     const listItem = document.createElement("li");
     listItem.innerText = element;
     listContainer.append(listItem);
+    element.addEventListener("click",(event) => {transform: translateX()
+    }
   });
 }
-function loadPage() {
+/*function loadPage() {
   document.addEventListener("click", (event) => {
     arrayMethod();
   });
-}
+*/
