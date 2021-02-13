@@ -12,10 +12,15 @@
 
  h1,h2,h3 {line-height:1,2}
 
-.main ul{
-    width: 9999px;
- }
-.main li{
+.ribbon{
+    display:block
+}
+
+.imgs ul{ 
+    width: 9999px
+}
+.imgs li{
      height: 130px;
      width: 130px;
+     display: inline-block
  }
