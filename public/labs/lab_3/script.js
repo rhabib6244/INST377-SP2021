@@ -5,9 +5,9 @@ function arrayMethod() {
   const slideArray = Array.from(slides);
 
   const listContainer = document.createElement("ul");
-  const target = document.querySelector(".carousel");
+  const target = document.querySelector("#carou");
   target.append(listContainer);
-
+}
   slideArray.forEach((element) => {
     const listItem = document.createElement("li");
     listItem.innerText = element;
