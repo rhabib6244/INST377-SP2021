@@ -3,9 +3,9 @@ let i = 1;
 let arrayOfImages = Array.from(carousel.querySelectorAll("li"));
 window.console.log("arrOfImages:", arrayOfImages);
 
-arrayOfImages.forEach((li) => {
-  li.style.position = "relative";
-  li.insertAdjacentHTML(
+arrayOfImages.forEach((element) => {
+  element.style.position = "relative";
+  element.insertAdjacentHTML(
     "beforeend",
     `<span style="position:absolute;left:0;top:0">${i}</span>`
   );
