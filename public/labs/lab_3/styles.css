@@ -1,60 +1,12 @@
-/* Add some css styles based on the tutorial at javascript.info: introduction to browser events
- https://javascript.info/introduction-browser-events */
-
- /*
- body{
-    margin:40px auto;
-    max-width: 650px;
-    line-height: 1.6;
-    font-size: 18px;
-    color: #444;
-    padding:0 10px
- }
-
- h1,h2,h3 {line-height:1,2}
- 
-.carousel-wrapper {
-    overflow: hidden;
-    width: 100%;
-    display: block;
-}
-.carousel-wrapper * {
-    box-sizing: border-box;
-}
-.carousel {
-    transform-style: preserve-3d;
-    background-color: gray;
-}
-
- .carousel ul{
-     width: 9999px;
-     transform: translateX(200px);
- }
- .carousel li{
-     height: 130px;
-     width: 130px;
-     display: inline-block;
-     transition: transform .5s, opacity .5s, z-index .5s;
- }
- .first {
-    left:0;
-}
-
-.second{
-    right:0;
-}
-*/
-
-
-
-
 body {
     margin-top: auto;
+    background-color: indianred;
 }
-  
+
   .carousel {
     margin: auto; 
     position: relative;
+    top: 250px;
     width: 398px;
     padding: 10px 40px;
     border: 1px solid #CCC;
