@@ -11,27 +11,22 @@ arrayOfImages.forEach((li) => {
   );
 });
 
-/* configuration */
-let width = 130; // image width
-let count = 3; // visible images count
+let width = 130; 
+let count = 3; 
 
 let list = carousel.querySelector("ul");
 let listElems = carousel.querySelectorAll("li");
 
-let position = 0; // ribbon scroll position
+let position = 0;
 
 function prevClicked() {
-  // shift left
   position += width * count;
-  // can't move to the left too much, end of images
   position = Math.min(position, 0);
   list.style.marginLeft = position + "px";
 }
 
 function nextClicked() {
-  // shift right
   position -= width * count;
-  // can only shift the ribbbon for (total ribbon length - visible count) images
   position = Math.max(position, -width * (listElems.length - count));
   list.style.marginLeft = position + "px";
 }
