@@ -1,0 +1,53 @@
+body {
+    background:#E6D6F0;
+}
+.container { /*maybe doesnt do anything*/
+    margin: 0 auto;
+}
+
+.flex-outer li,
+.flex-inner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.flex-inner li{
+    display: inline-block;
+    width: 100px;
+  }
+
+.flex-outer > li:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.flex-outer > li > label,
+.flex-outer li p {
+  flex: 1 0 120px;
+  max-width: 220px;
+}
+ 
+.flex-outer > li > label + *,
+.flex-inner {
+  flex: 1 0 220px;
+}
+
+
+.flex-outer li button {
+    margin-right: auto;
+    padding: 8px 16px;
+    border: none;
+    background: white;
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: .09em;
+    border-radius: 2px;
+  }
+
+  .flex-outer li{
+    width: 50%;
+    margin-right: auto;
+  }
+ 
+.flex-header {
+    text-align: center;
+}
