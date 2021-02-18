@@ -8,5 +8,5 @@ app.route('/api')
     .post(async(req,res) => {
         console.log('POST request detected');
         console.log('Form data in res.body',req.body);
-        res.send({message: 'hello world'});
+        res.send("Hello Word").status(200);
     });

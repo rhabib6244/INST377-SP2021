@@ -15,7 +15,7 @@ body {
     display: inline-block;
     width: 20px;
   }
-  .flex-inner {flex-wrap: nowrap;} 
+  .flex-inner {flex-wrap: nowrap;}
 
 .flex-outer > li:not(:last-child) {
     margin-bottom: 20px;
