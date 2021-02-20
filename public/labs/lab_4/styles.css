@@ -4,6 +4,9 @@ body {
 .container { /*maybe doesnt do anything*/
     margin: 0 auto;
 }
+.flex-header{
+    margin-bottom: 50px;
+}
 
 .flex-outer li,
 .flex-inner {
@@ -23,8 +26,8 @@ body {
 
 .flex-outer > li > label,
 .flex-outer li p {
-  flex: 1 0 120px;
-  max-width: 220px;
+  flex: 1 0 200px;
+  max-width: 100px;
 }
  
 .flex-outer > li > label + *,
@@ -51,4 +54,9 @@ body {
  
 .flex-header {
     text-align: center;
+}
+
+input[type=text], input[type=email],
+input[type=tel]{
+    width: 100%;
 }
