@@ -1,0 +1,31 @@
+#mapid { height: 275px; 
+    width:500px;}
+h1 {
+    font-size: 25px;
+    font-weight: bold;
+}
+.container {
+    margin: auto;
+}
+.target-list{
+    margin-top: 30px;
+}
+.userform {
+    margin-top: 20px;
+}
+li {
+    border-radius: 5px;
+    height: 70px;
+    width: 400px;
+    margin: 40px;
+    padding:8px 12px;
+    background-color: lightblue;
+    margin: -2px; 
+    margin-bottom: 20px; 
+}
+.name {
+    font-weight: bold;
+}
+span {
+    display:block;
+}
